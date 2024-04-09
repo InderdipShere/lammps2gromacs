@@ -1,0 +1,12 @@
+traj_MIL177_bulk_flex.gro     NEW_SYSTEM.gro   traj_MIL177_223_flex_onlybulk.gro  !! ... TRAJFILE
+2  1  !! ... HEAD_TRAJ, TAIL_TRAJ
+10, 1, 0  !! ... NFRAME, NSKIP
+3600  !! ... NATOM 
+4.51900   3.91357   3.69204  !! ... (BOX(I), I = 1, 3)
+-2.25950   0.00000   0.00000  !! .... XY, XZ, YZ  ! SHIFT PARAMETERS
+8 16 5 1  !! ... NBONDT, NANGT, NDIHEDT, NIMPROPT
+4608 10152 7200 3888     !! ... NBOND,  NANG,  NDIHED,  NIMPROP
+0.3 !! ... RIJ_MAX
+100 100 100 100 !! ... NBIN_B, NBIN_A, NBIN_D, NBIN_I
+data.Only_MIP177_223  !! ... LISTFILE
+3681  !! ... HEAD_LIST
